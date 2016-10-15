@@ -32,6 +32,21 @@ namespace Latihan_1_1
             label2.Text = vScrollBar1.Value.ToString();
         }
 
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            DateTime now,max,min;
+            now = DateTime.Now;
+            max = new DateTime(now.Year + vScrollBar2.Value,now.Month,now.Day);
+            min = new DateTime(now.Year - vScrollBar1.Value,now.Month, now.Day);
+            dateTimePicker1.MinDate = min;
+            dateTimePicker1.MaxDate = max;
+        }
+
 
     }
 }
