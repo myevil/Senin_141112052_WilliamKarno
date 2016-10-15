@@ -16,5 +16,22 @@ namespace Latihan_1_1
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void vScrollBar2_Scroll(object sender, ScrollEventArgs e)
+        {
+            label1.Text = vScrollBar2.Value.ToString();
+        }
+
+        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+            label2.Text = vScrollBar1.Value.ToString();
+        }
+
+
     }
 }
