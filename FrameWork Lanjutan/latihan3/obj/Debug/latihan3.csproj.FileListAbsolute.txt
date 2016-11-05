@@ -1,0 +1,9 @@
+D:\Theater\theater japan\education\semester 5\Framework Lanjutan\Minggu\FrameWork Lanjutan\latihan3\bin\Debug\latihan3.exe.config
+D:\Theater\theater japan\education\semester 5\Framework Lanjutan\Minggu\FrameWork Lanjutan\latihan3\bin\Debug\latihan3.exe
+D:\Theater\theater japan\education\semester 5\Framework Lanjutan\Minggu\FrameWork Lanjutan\latihan3\bin\Debug\latihan3.pdb
+D:\Theater\theater japan\education\semester 5\Framework Lanjutan\Minggu\FrameWork Lanjutan\latihan3\obj\Debug\latihan3.Form1.resources
+D:\Theater\theater japan\education\semester 5\Framework Lanjutan\Minggu\FrameWork Lanjutan\latihan3\obj\Debug\latihan3.Properties.Resources.resources
+D:\Theater\theater japan\education\semester 5\Framework Lanjutan\Minggu\FrameWork Lanjutan\latihan3\obj\Debug\latihan3.csproj.GenerateResource.Cache
+D:\Theater\theater japan\education\semester 5\Framework Lanjutan\Minggu\FrameWork Lanjutan\latihan3\obj\Debug\latihan3.exe
+D:\Theater\theater japan\education\semester 5\Framework Lanjutan\Minggu\FrameWork Lanjutan\latihan3\obj\Debug\latihan3.pdb
+D:\Theater\theater japan\education\semester 5\Framework Lanjutan\Minggu\FrameWork Lanjutan\latihan3\obj\Debug\latihan3.csprojResolveAssemblyReference.cache

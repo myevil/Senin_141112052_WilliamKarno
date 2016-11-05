@@ -21,5 +21,15 @@ namespace Latihan_2_1
         {
 
         }
+
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+            DateTime now;
+
+            now = new DateTime(2016, 10, 15);
+
+            monthCalendar1.AddAnnuallyBoldedDate(now);
+
+        }
     }
 }

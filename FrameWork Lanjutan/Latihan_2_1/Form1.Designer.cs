@@ -38,11 +38,16 @@
             // 
             // monthCalendar1
             // 
+            this.monthCalendar1.BoldedDates = new System.DateTime[] {
+        new System.DateTime(2016, 10, 5, 0, 0, 0, 0)};
             this.monthCalendar1.CalendarDimensions = new System.Drawing.Size(2, 2);
             this.monthCalendar1.Location = new System.Drawing.Point(77, 99);
+            this.monthCalendar1.MonthlyBoldedDates = new System.DateTime[] {
+        new System.DateTime(2016, 10, 1, 0, 0, 0, 0)};
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.ScrollChange = 4;
             this.monthCalendar1.TabIndex = 0;
+            this.monthCalendar1.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateChanged);
             // 
             // numericUpDown1
             // 
