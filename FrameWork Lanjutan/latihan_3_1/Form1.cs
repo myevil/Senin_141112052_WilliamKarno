@@ -15,7 +15,21 @@ namespace latihan_3_1
         public int check;
         public Form1()
         {
+
             InitializeComponent();
+            foreach (FontFamily font in FontFamily.Families)
+            {
+                FontStyle? availableStyle = null;
+                foreach (FontStyle style in Enum.GetValues(typeof(FontStyle)))
+                {
+                    if (font.IsStyleAvailable(style))
+                    {
+                        fontfamily.Items.Add(font.Name);
+                        break;
+                    }
+                }
+
+            }
             for (int i = 1; i <= 100; i++)
             {
                 fontsize.Items.Add(i);
@@ -89,6 +103,14 @@ namespace latihan_3_1
             text.SelectionFont = underline;
         }
 
+        private void fontfamily_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (text.SelectionFont == null)
+            {
+                return;
+            }
+            text.SelectionFont = new System.Drawing.Font(fontfamily.Text, text.SelectionFont.Size, text.SelectionFont.Style);
+        }
 
         private void fontsize_SelectedIndexChanged(object sender, EventArgs e)
         {
